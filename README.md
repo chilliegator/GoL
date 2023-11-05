@@ -1,3 +1,3 @@
 # GoL
 Game Of Life( C code )
-This is simply Game Of Life code. 
+This is simple Game Of Life code on C :D
