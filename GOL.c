@@ -152,13 +152,13 @@ int main()
     // Run game of life iterations ( запуск итераций игры )
     while (1)
     {
-        clear_screen();
         printGrid(grid);
+        Sleep(10);
+        clear_screen();
         memcpy(prev_grid, grid, ext_size);
         updateGrid(grid);
         if (!memcmp(grid, prev_grid, ext_size))
             break;
-        Sleep(1000);
     }
     return 0;
 }
